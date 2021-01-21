@@ -23,6 +23,12 @@ steps{
         sh 'mvn clean install'
       }
     }
+stage('ConDelivery'){
+steps{
+deploy adapters: [tomcat9(credentialsId: '2bd4884f-047c-4af0-b688-563c0b3ffcfd', path: '', url: 'http://192.168.33.10:9090/')], contextPath: null, war: 'target/*.war'
+
+}
+}
 
   }
 }
