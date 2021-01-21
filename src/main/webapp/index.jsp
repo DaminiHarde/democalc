@@ -6,9 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Calculator</title>
 </head>
-<body bgcolor="Yellow">
+<body bgcolor="biege">
 
-<h1 style="text_align=center">Demo Calculator - by DaminiHarde for DevOps Program</h1>
+<h1 style="text_align=center">Demo Calculator - by DaminiHarde for DevOps Program with Pipeline Script from SCM</h1>
 <form action="firstHomePage" method="get">
 <label>First number:</label>
 <input id="f1" type="text" name="n1" />
